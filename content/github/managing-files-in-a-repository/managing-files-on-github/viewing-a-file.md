@@ -1,19 +1,34 @@
 ---
-title: Tracking changes in a file
+title: Viewing a file
 intro: You can trace changes to lines in a file and discover how parts of the file evolved over time.
 redirect_from:
   - /articles/using-git-blame-to-trace-changes-in-a-file/
   - /articles/tracing-changes-in-a-file/
   - /articles/tracking-changes-in-a-file
   - /github/managing-files-in-a-repository/tracking-changes-in-a-file
+  - /github/managing-files-in-a-repository/managing-files-on-github/tracking-changes-in-a-file
 versions:
   fpt: '*'
   ghes: '*'
   ghae: '*'
 topics:
   - Repositories
-shortTitle: Track file changes
+shortTitle: Viewing a file
 ---
+
+GitHub has a number of special file views.
+If a file is Markdown (`.md`), Comma-Separated-Values (`.csv`), MPEG-4 (`.mp4`), and a number of other formats, Gi
+
+## View raw file
+
+If you want to download a file, you can click the `raw` link at the top of a page.
+
+## View a file without special rendering
+
+If GitHub supports the file, but you want to see the plain version of the file, you can add `?plain=1` to the end of the url for the file you're looking at.
+
+## Track file changes
+
 With the blame view, you can view the line-by-line revision history for an entire file, or view the revision history of a single line within a file by clicking {% octicon "versions" aria-label="The prior blame icon" %}. Each time you click {% octicon "versions" aria-label="The prior blame icon" %}, you'll see the previous revision information for that line, including who committed the change and when.
 
 ![Git blame view](/assets/images/help/repository/git_blame.png)

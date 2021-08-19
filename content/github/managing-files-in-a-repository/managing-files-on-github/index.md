@@ -16,7 +16,7 @@ children:
   - /moving-a-file-to-a-new-location
   - /editing-files-in-your-repository
   - /editing-files-in-another-users-repository
-  - /tracking-changes-in-a-file
+  - /viewing-a-file
   - /deleting-files-in-a-repository
   - /renaming-a-file
   - /getting-permanent-links-to-files
